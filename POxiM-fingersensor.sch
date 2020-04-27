@@ -55,8 +55,13 @@ U 1 1 5EA6D793
 P 2100 3400
 F 0 "D?" V 2004 3321 50  0000 R CNN
 F 1 "Photodiode" V 2095 3321 50  0000 R CNN
-F 2 "" H 2050 3400 50  0001 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 2050 3400 50  0001 C CNN
 F 3 "~" H 2050 3400 50  0001 C CNN
+F 4 "SFH 2701" V 2100 3400 50  0001 C CNN "Part number"
+F 5 "2981719" V 2100 3400 50  0001 C CNN "Order number"
+F 6 "Farnell" V 2100 3400 50  0001 C CNN "Supplier"
+F 7 "" V 2100 3400 50  0001 C CNN "Notes"
+F 8 "https://nl.farnell.com/osram-opto-semiconductors/sfh-2701/photo-diode-820nm-1206/dp/2981719" V 2100 3400 50  0001 C CNN "Link"
 	1    2100 3400
 	0    -1   1    0   
 $EndComp
@@ -109,6 +114,11 @@ F 0 "D?" V 6900 3650 50  0000 R CNN
 F 1 "IR and red" V 7000 3650 50  0000 R CNN
 F 2 "" H 6980 3850 50  0001 C CNN
 F 3 "~" H 6980 3850 50  0001 C CNN
+F 4 "VSMD66694" V 6950 3850 50  0001 C CNN "Part number"
+F 5 "2889676" V 6950 3850 50  0001 C CNN "Order number"
+F 6 "Farnell" V 6950 3850 50  0001 C CNN "Supplier"
+F 7 "" V 6950 3850 50  0001 C CNN "Notes"
+F 8 "https://nl.farnell.com/vishay/vsmd66694/infrared-emitter-660-nm-smd/dp/2889676?st=VSMD66694" V 6950 3850 50  0001 C CNN "Link"
 	1    6950 3850
 	0    -1   1    0   
 $EndComp
@@ -124,7 +134,7 @@ U 1 1 5EA73172
 P 7350 3250
 F 0 "J?" H 7400 3250 50  0000 L CNN
 F 1 "To readout unit" H 7400 3150 50  0000 L CNN
-F 2 "" H 7350 3250 50  0001 C CNN
+F 2 "POxiM-uncategorised:Molex-Nanofit-4" H 7350 3250 50  0001 C CNN
 F 3 "~" H 7350 3250 50  0001 C CNN
 F 4 "1054301204" V 7350 3250 50  0001 C CNN "Part number"
 F 5 "538-105430-1204" V 7350 3250 50  0001 C CNN "Order number"
@@ -181,13 +191,18 @@ LED board
 Text Notes 1900 3050 0    100  ~ 0
 Photodiode board
 $Comp
-L POxiM-mechanical:Premo-Flex_4C #CA?
+L POxiM-mechanical:Premo-Flex_4C CA?
 U 1 1 5EA7B2D1
 P 4500 3300
-F 0 "#CA?" H 4500 3665 50  0000 C CNN
-F 1 "Premo-Flex_4C" H 4500 3574 50  0000 C CNN
-F 2 "" H 4850 3550 50  0001 C CNN
-F 3 "" H 4850 3550 50  0001 C CNN
+F 0 "CA?" H 4500 3665 50  0000 C CNN
+F 1 "50mm FFC" H 4500 3574 50  0000 C CNN
+F 2 "POxiM-uncategorised:Accesory" H 4850 3550 50  0001 C CNN
+F 3 "${KIPRJMOD}/Datasheets/6866xxxxx001-473363.pdf" H 4850 3550 50  0001 C CNN
+F 4 "686604050001" H 4500 3300 50  0001 C CNN "Part number"
+F 5 "2827779" H 4500 3300 50  0001 C CNN "Order number"
+F 6 "Farnell" H 4500 3300 50  0001 C CNN "Supplier"
+F 7 "Shortest available" H 4500 3300 50  0001 C CNN "Notes"
+F 8 "https://nl.farnell.com/wurth-elektronik/686604050001/cable-assy-ffc-ffc-4-core-50mm/dp/2827779?st=ffc" H 4500 3300 50  0001 C CNN "Link"
 	1    4500 3300
 	1    0    0    -1  
 $EndComp
