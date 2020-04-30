@@ -1,4 +1,4 @@
-15710337103079743
+15711952254868743
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -62339,8 +62339,8 @@ Molex-Nanofit-4
 
 
 0
+6
 4
-2
 POxiM-uncategorised
 Molex-Nanofit-5
 
@@ -62355,6 +62355,13 @@ connector Molex  top entry
 0
 6
 5
+POxiM-uncategorised
+VSMD66694
+VSMD66694-3
+LED
+0
+4
+4
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf

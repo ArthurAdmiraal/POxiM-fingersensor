@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5EA66BD1
 P 6200 3250
-F 0 "J?" H 6300 3250 50  0000 L CNN
+F 0 "J2" H 6300 3250 50  0000 L CNN
 F 1 "To photodiode board" H 6300 3150 50  0000 L CNN
 F 2 "POxiM-uncategorised:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 6200 3250 50  0001 C CNN
 F 3 "${KIPRJMOD}/Datasheets/987651-8731.pdf" H 6200 3250 50  0001 C CNN
@@ -30,10 +30,10 @@ F 8 "https://nl.mouser.com/ProductDetail/Molex/200528-0040?qs=sGAEpiMZZMs7i6cT6o
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J1
 U 1 1 5EA6A4C1
 P 3050 3250
-F 0 "J?" H 3130 3242 50  0000 L CNN
+F 0 "J1" H 3130 3242 50  0000 L CNN
 F 1 "To LED board" H 3130 3151 50  0000 L CNN
 F 2 "POxiM-uncategorised:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal" H 3050 3250 50  0001 C CNN
 F 3 "${KIPRJMOD}/Datasheets/987651-8731.pdf" H 3050 3250 50  0001 C CNN
@@ -50,18 +50,18 @@ Infrared
 Text Notes 7050 4150 3    50   ~ 0
 Red
 $Comp
-L Device:D_Photo_ALT D?
+L Device:D_Photo_ALT D1
 U 1 1 5EA6D793
 P 2100 3400
-F 0 "D?" V 2004 3321 50  0000 R CNN
+F 0 "D1" V 2004 3321 50  0000 R CNN
 F 1 "Photodiode" V 2095 3321 50  0000 R CNN
-F 2 "" H 2050 3400 50  0001 C CNN
-F 3 "~" H 2050 3400 50  0001 C CNN
-F 4 "QSB34CGR" V 2100 3400 50  0001 C CNN "Part number"
-F 5 "2822582" V 2100 3400 50  0001 C CNN "Order number"
+F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 2050 3400 50  0001 C CNN
+F 3 "${KIPRJMOD}/Datasheets/2711852.pdf" H 2050 3400 50  0001 C CNN
+F 4 "SFH 2701" V 2100 3400 50  0001 C CNN "Part number"
+F 5 "2981719" V 2100 3400 50  0001 C CNN "Order number"
 F 6 "Farnell" V 2100 3400 50  0001 C CNN "Supplier"
 F 7 "" V 2100 3400 50  0001 C CNN "Notes"
-F 8 "https://nl.farnell.com/on-semiconductor/qsb34cgr/pin-photo-diode-30na-plcc-2/dp/2822582" V 2100 3400 50  0001 C CNN "Link"
+F 8 "https://nl.farnell.com/osram-opto-semiconductors/sfh-2701/photo-diode-820nm-1206/dp/2981719" V 2100 3400 50  0001 C CNN "Link"
 	1    2100 3400
 	0    -1   1    0   
 $EndComp
@@ -80,10 +80,10 @@ Wire Wire Line
 Wire Wire Line
 	2100 3550 2100 3500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5EA6FEDC
 P 2100 3600
-F 0 "#PWR?" H 2100 3350 50  0001 C CNN
+F 0 "#PWR0101" H 2100 3350 50  0001 C CNN
 F 1 "GND" H 2105 3427 50  0000 C CNN
 F 2 "" H 2100 3600 50  0001 C CNN
 F 3 "" H 2100 3600 50  0001 C CNN
@@ -94,10 +94,10 @@ Wire Wire Line
 	2100 3600 2100 3550
 Connection ~ 2100 3550
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5EA71CA5
 P 6850 4550
-F 0 "#PWR?" H 6850 4300 50  0001 C CNN
+F 0 "#PWR0102" H 6850 4300 50  0001 C CNN
 F 1 "GND" H 6855 4377 50  0000 C CNN
 F 2 "" H 6850 4550 50  0001 C CNN
 F 3 "" H 6850 4550 50  0001 C CNN
@@ -107,13 +107,13 @@ $EndComp
 Wire Wire Line
 	6850 4150 6850 4500
 $Comp
-L Device:LED_Dual_AACC D?
+L POxiM-uncategorised:LED_Dual_AACC D2
 U 1 1 5EA6AA6C
 P 6950 3850
-F 0 "D?" V 6900 3650 50  0000 R CNN
+F 0 "D2" V 6900 3650 50  0000 R CNN
 F 1 "IR and red" V 7000 3650 50  0000 R CNN
-F 2 "" H 6980 3850 50  0001 C CNN
-F 3 "~" H 6980 3850 50  0001 C CNN
+F 2 "POxiM-uncategorised:VSMD66694" H 6980 3850 50  0001 C CNN
+F 3 "${KIPRJMOD}/Datasheets/2633003.pdf" H 6980 3850 50  0001 C CNN
 F 4 "VSMD66694" V 6950 3850 50  0001 C CNN "Part number"
 F 5 "2889676" V 6950 3850 50  0001 C CNN "Order number"
 F 6 "Farnell" V 6950 3850 50  0001 C CNN "Supplier"
@@ -129,10 +129,10 @@ NoConn ~ 6400 3450
 Wire Wire Line
 	6400 3250 6550 3250
 $Comp
-L Connector:Conn_01x04_Female J?
+L Connector:Conn_01x04_Female J3
 U 1 1 5EA73172
 P 7350 3250
-F 0 "J?" H 7400 3250 50  0000 L CNN
+F 0 "J3" H 7400 3250 50  0000 L CNN
 F 1 "To readout unit" H 7400 3150 50  0000 L CNN
 F 2 "POxiM-uncategorised:Molex-Nanofit-4" H 7350 3250 50  0001 C CNN
 F 3 "~" H 7350 3250 50  0001 C CNN
@@ -191,10 +191,10 @@ LED board
 Text Notes 1900 3050 0    100  ~ 0
 Photodiode board
 $Comp
-L POxiM-mechanical:Premo-Flex_4C CA?
+L POxiM-mechanical:Premo-Flex_4C CA1
 U 1 1 5EA7B2D1
 P 4500 3300
-F 0 "CA?" H 4500 3665 50  0000 C CNN
+F 0 "CA1" H 4500 3665 50  0000 C CNN
 F 1 "50mm FFC" H 4500 3574 50  0000 C CNN
 F 2 "POxiM-uncategorised:Accesory" H 4850 3550 50  0001 C CNN
 F 3 "${KIPRJMOD}/Datasheets/6866xxxxx001-473363.pdf" H 4850 3550 50  0001 C CNN
