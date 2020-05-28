@@ -6,10 +6,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Finger sensor"
-Date "2020-04-27"
+Date "2020-05-29"
 Rev "Test proto"
 Comp "POxiM"
-Comment1 "By Arthur Admiraal"
+Comment1 "By Arthur Admiraal & Daan de Groot"
 Comment2 "Infrared and red transmissivity sensor"
 Comment3 ""
 Comment4 ""
