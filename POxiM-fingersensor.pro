@@ -1,4 +1,4 @@
-update=2020 June 10, Wednesday 15:03:01
+update=2020 June 17, Wednesday 22:20:15
 version=1
 last_client=kicad
 [general]
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=Libraries/Sheets/POxiM_PageLayout_PCB.kicad_wks
 LastNetListRead=
 CopperLayerCount=2
-BoardThickness=0.1
+BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
