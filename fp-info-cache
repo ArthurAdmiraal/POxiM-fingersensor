@@ -1,4 +1,4 @@
-15713544050044743
+15742213545267005
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -39697,6 +39697,13 @@ USB USB_B USB_micro USB_OTG
 17
 6
 Connector_USB
+USB_Micro-B_Amphenol_10118194-0001LF_Horizontal
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
+Connector_USB
 USB_Micro-B_GCT_USB3076-30-A
 GCT Micro USB https://gct.co/files/drawings/usb3076.pdf
 Micro-USB SMD Typ-B GCT
@@ -61256,6 +61263,34 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Panelization
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2.5mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+Panelization
+mouse-bite-2mm-slot
+
+
+0
+0
+0
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -62321,12 +62356,40 @@ Accesory
 0
 0
 POxiM-uncategorised
-Finger-CableConnection
+Bumpon-SJ-5007BK
+
+
+0
+0
+0
+POxiM-uncategorised
+CUI_SJ-43514-SMT
 
 
 0
 4
 4
+POxiM-uncategorised
+C_0805_2012Metric_0603_1608Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+POxiM-uncategorised
+LED_0805_2012Metric_0603_1608Metric
+LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+diode
+0
+2
+2
+POxiM-uncategorised
+Micro-B_Molex_105017-0001
+
+
+0
+13
+6
 POxiM-uncategorised
 Molex-Nanofit-2
 
@@ -62359,6 +62422,69 @@ POxiM-uncategorised
 Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal
 Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator
 connector Molex  top entry
+0
+6
+5
+POxiM-uncategorised
+Potentiometer_Bourns_PTV09A-1_Single_Vertical
+Potentiometer, vertical, Bourns PTV09A-1 Single, http://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
+Potentiometer vertical Bourns PTV09A-1 Single
+0
+3
+3
+POxiM-uncategorised
+pot_bourns_PTV111-1
+
+
+0
+4
+3
+POxiM-uncategorised
+R_0805_2012Metric_0603_1608Metric
+Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+POxiM-uncategorised
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+POxiM-uncategorised
+SolderJumper-2_P1.3mm_SolderBridged_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+POxiM-uncategorised
+SW_C&K_A12405RNCQ
+
+
+0
+0
+0
+POxiM-uncategorised
+SW_ESwitch_KC14A10.001NPS
+
+
+0
+6
+6
+POxiM-uncategorised
+Tab_MouseBites_2.5mm
+
+
+0
+0
+0
+POxiM-uncategorised
+USBA_87583-2010RLF
+
+
 0
 6
 5

@@ -141,4 +141,6 @@ Text Label 5800 3850 0    50   ~ 0
 LED.Red
 Text Label 5800 4450 0    50   ~ 0
 Photodiode
+Text Notes 3150 2550 0    50   ~ 0
+ - Add fudicials\n - Cable connections should have holes in pads\n - Flex part needs to be hatched & no silkscreen\n - Each rigid part needs two 2mm tool holes\n - 0603/0805 agnostic footprints can be used\n - PCB should be less tall\n - Cable connections should be next to LEDs instead of above
 $EndSCHEMATC

@@ -36,25 +36,16 @@ U 1 1 5EA73172
 P 4900 4000
 F 0 "J3" H 4950 4000 50  0000 L CNN
 F 1 "To readout unit" H 4950 3900 50  0000 L CNN
-F 2 "POxiM-uncategorised:Molex-Nanofit-4" H 4900 4000 50  0001 C CNN
+F 2 "POxiM-uncategorised:Finger-CableConnection" H 4900 4000 50  0001 C CNN
 F 3 "~" H 4900 4000 50  0001 C CNN
-F 4 "1054301204" V 4900 4000 50  0001 C CNN "Part number"
-F 5 "538-105430-1204" V 4900 4000 50  0001 C CNN "Order number"
-F 6 "Mouser" V 4900 4000 50  0001 C CNN "Supplier"
-F 7 "Mouser gold plating, Farnell tin plating" V 4900 4000 50  0001 C CNN "Notes"
-F 8 "https://nl.mouser.com/ProductDetail/Molex/105430-1204?utm_term=1054301204&qs=gZXFycFWdAOazz4rplLXKg%3D%3D&utm_campaign=105430-1204&utm_medium=aggregator&utm_source=findchips&utm_content=Molex" V 4900 4000 50  0001 C CNN "Link"
-F 9 "105430-1104" V 4900 4000 50  0001 C CNN "Part number 2"
-F 10 "3225233" V 4900 4000 50  0001 C CNN "Order number 2"
-F 11 "Farnell" V 4900 4000 50  0001 C CNN "Supplier 2"
-F 12 "https://nl.farnell.com/molex/105430-1104/nano-fit-hdr-smt-ra-sgl-4ckt-tin/dp/3225233?CMP=GRHB-SF-FC" V 4900 4000 50  0001 C CNN "Link 2"
 	1    4900 4000
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 5EE0E1BF
 P 6400 3850
-F 0 "D?" H 6500 3900 50  0000 L CNN
+F 0 "D3" H 6500 3900 50  0000 L CNN
 F 1 "Red (660nm)" H 6500 3800 50  0000 L CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6400 3850 50  0001 C CNN
 F 3 "~" H 6400 3850 50  0001 C CNN
@@ -62,10 +53,10 @@ F 3 "~" H 6400 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 5EE0E711
 P 6400 3650
-F 0 "D?" H 6500 3700 50  0000 L CNN
+F 0 "D2" H 6500 3700 50  0000 L CNN
 F 1 "IR (940nm)" H 6500 3600 50  0000 L CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 6400 3650 50  0001 C CNN
 F 3 "~" H 6400 3650 50  0001 C CNN
@@ -105,10 +96,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 4450 6250 4450
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0101
 U 1 1 5EE147B5
 P 5200 3850
-F 0 "#PWR?" H 5200 3700 50  0001 C CNN
+F 0 "#PWR0101" H 5200 3700 50  0001 C CNN
 F 1 "+5V" H 5215 4023 50  0000 C CNN
 F 2 "" H 5200 3850 50  0001 C CNN
 F 3 "" H 5200 3850 50  0001 C CNN
@@ -120,10 +111,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 4100 5200 3850
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0102
 U 1 1 5EE15AC6
 P 7100 3600
-F 0 "#PWR?" H 7100 3450 50  0001 C CNN
+F 0 "#PWR0102" H 7100 3450 50  0001 C CNN
 F 1 "+5V" H 7115 3773 50  0000 C CNN
 F 2 "" H 7100 3600 50  0001 C CNN
 F 3 "" H 7100 3600 50  0001 C CNN
