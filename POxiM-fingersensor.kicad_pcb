@@ -131,6 +131,7 @@
   (module POxiM-uncategorised:Finger-CableConnection (layer B.Cu) (tedit 5EFD01C1) (tstamp 5EFE9E96)
     (at 106.75 68 180)
     (path /5EA73172)
+    (clearance 0.4)
     (fp_text reference J3 (at 2.5 0) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
     )
