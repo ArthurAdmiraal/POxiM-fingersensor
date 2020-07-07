@@ -127,7 +127,7 @@ LED.Red
 Text Label 5800 4450 0    50   ~ 0
 Photodiode
 Text Notes 3150 2550 0    50   ~ 0
- - Add fudicials\n - Cable connections should have holes in pads\n - Flex part needs to be hatched & no silkscreen\n - Each rigid part needs two 2mm tool holes\n - 0603/0805 agnostic footprints can be used\n - PCB should be less tall\n - Cable connections should be next to LEDs instead of above
+- Update footprints\n- Tool holes to 2mm\n- Routing posts can extend past board edge\n- Increase fiducial size
 $Comp
 L power:GND #PWR0101
 U 1 1 5F046C3E
@@ -161,7 +161,7 @@ U 1 1 5F048FBF
 P 1250 7200
 F 0 "H1" H 1350 7246 50  0000 L CNN
 F 1 "M2 alignment hole" H 1350 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 1250 7200 50  0001 C CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 1250 7200 50  0001 C CNN
 F 3 "~" H 1250 7200 50  0001 C CNN
 F 4 "~" H 1250 7200 50  0001 C CNN "Part number"
 F 5 "~" H 1250 7200 50  0001 C CNN "Order number"
@@ -177,7 +177,7 @@ U 1 1 5F049620
 P 1250 7450
 F 0 "H2" H 1350 7496 50  0000 L CNN
 F 1 "M2 alignment hole" H 1350 7405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 1250 7450 50  0001 C CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 1250 7450 50  0001 C CNN
 F 3 "~" H 1250 7450 50  0001 C CNN
 F 4 "~" H 1250 7450 50  0001 C CNN "Part number"
 F 5 "~" H 1250 7450 50  0001 C CNN "Order number"
@@ -193,7 +193,7 @@ U 1 1 5F049B3D
 P 2250 7200
 F 0 "H3" H 2350 7246 50  0000 L CNN
 F 1 "M2 alignment hole" H 2350 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 2250 7200 50  0001 C CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 2250 7200 50  0001 C CNN
 F 3 "~" H 2250 7200 50  0001 C CNN
 F 4 "~" H 2250 7200 50  0001 C CNN "Part number"
 F 5 "~" H 2250 7200 50  0001 C CNN "Order number"
@@ -209,7 +209,7 @@ U 1 1 5F04A2B3
 P 2250 7450
 F 0 "H4" H 2350 7496 50  0000 L CNN
 F 1 "M2 alignment hole" H 2350 7405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 2250 7450 50  0001 C CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 2250 7450 50  0001 C CNN
 F 3 "~" H 2250 7450 50  0001 C CNN
 F 4 "~" H 2250 7450 50  0001 C CNN "Part number"
 F 5 "~" H 2250 7450 50  0001 C CNN "Order number"
@@ -225,7 +225,7 @@ U 1 1 5F04B929
 P 3250 7200
 F 0 "FID1" H 3335 7246 50  0000 L CNN
 F 1 "Fiducial" H 3335 7155 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3250 7200 50  0001 C CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3250 7200 50  0001 C CNN
 F 3 "~" H 3250 7200 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Link"
 F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
@@ -241,7 +241,7 @@ U 1 1 5F04C457
 P 3250 7450
 F 0 "FID2" H 3335 7496 50  0000 L CNN
 F 1 "Fiducial" H 3335 7405 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3250 7450 50  0001 C CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3250 7450 50  0001 C CNN
 F 3 "~" H 3250 7450 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Link"
 F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
@@ -257,7 +257,7 @@ U 1 1 5F04D55D
 P 3850 7200
 F 0 "FID3" H 3935 7246 50  0000 L CNN
 F 1 "Fiducial" H 3935 7155 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3850 7200 50  0001 C CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3850 7200 50  0001 C CNN
 F 3 "~" H 3850 7200 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Link"
 F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
@@ -273,7 +273,7 @@ U 1 1 5F04D563
 P 3850 7450
 F 0 "FID4" H 3935 7496 50  0000 L CNN
 F 1 "Fiducial" H 3935 7405 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 3850 7450 50  0001 C CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3850 7450 50  0001 C CNN
 F 3 "~" H 3850 7450 50  0001 C CNN
 F 4 "~" H 0   0   50  0001 C CNN "Link"
 F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
