@@ -23,9 +23,9 @@ F 1 "Photodiode" H 6550 4400 50  0000 L CNN
 F 2 "POxiM-uncategorised:LED_1206_3216Metric_0805_2012Metric_Castellated" H 6400 4450 50  0001 C CNN
 F 3 "${KIPRJMOD}/Datasheets/2711852.pdf" H 6400 4450 50  0001 C CNN
 F 4 "SFH 2701" V 6450 4450 50  0001 C CNN "Part number"
-F 5 "2981719" V 6450 4450 50  0001 C CNN "Order number"
-F 6 "Farnell" V 6450 4450 50  0001 C CNN "Supplier"
-F 7 "https://nl.farnell.com/osram-opto-semiconductors/sfh-2701/photo-diode-820nm-1206/dp/2981719" V 6450 4450 50  0001 C CNN "Link"
+F 5 "720-SFH2701" V 6450 4450 50  0001 C CNN "Order number"
+F 6 "Mouser" V 6450 4450 50  0001 C CNN "Supplier"
+F 7 "https://nl.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/SFH-2701?qs=%2Fha2pyFadujkohCJnotANpZPDvUKMp5%2FTRZ67%252BHfjgI%3D" V 6450 4450 50  0001 C CNN "Link"
 	1    6450 4450
 	1    0    0    -1  
 $EndComp
@@ -52,11 +52,11 @@ P 6400 3650
 F 0 "D3" H 6200 3700 50  0000 R CNN
 F 1 "Red (660nm)" H 6200 3600 50  0000 R CNN
 F 2 "POxiM-uncategorised:LED_0805_2012Metric_0603_1608Metric" H 6400 3650 50  0001 C CNN
-F 3 "~" H 6400 3650 50  0001 C CNN
-F 4 "~" H 0   -200 50  0001 C CNN "Link"
-F 5 "~" H 0   -200 50  0001 C CNN "Order number"
-F 6 "~" H 0   -200 50  0001 C CNN "Part number"
-F 7 "~" H 0   -200 50  0001 C CNN "Supplier"
+F 3 "${KIPRJMOD}/Datasheets/SML-LX0603SRW-TR-1135914.pdf" H 6400 3650 50  0001 C CNN
+F 4 "https://nl.mouser.com/ProductDetail/Lumex/SML-LX0603SRW-TR?qs=I1ILoAvtKy93HVCzWwpawA%3D%3D" H 0   -200 50  0001 C CNN "Link"
+F 5 "696-SML-LX0603SRW" H 0   -200 50  0001 C CNN "Order number"
+F 6 "SML-LX0603SRW-TR" H 0   -200 50  0001 C CNN "Part number"
+F 7 "Mouser" H 0   -200 50  0001 C CNN "Supplier"
 	1    6400 3650
 	-1   0    0    -1  
 $EndComp
@@ -67,11 +67,11 @@ P 6400 3850
 F 0 "D2" H 6200 3900 50  0000 R CNN
 F 1 "IR (940nm)" H 6200 3800 50  0000 R CNN
 F 2 "POxiM-uncategorised:LED_0805_2012Metric_0603_1608Metric" H 6400 3850 50  0001 C CNN
-F 3 "~" H 6400 3850 50  0001 C CNN
-F 4 "~" H 0   200 50  0001 C CNN "Link"
-F 5 "~" H 0   200 50  0001 C CNN "Order number"
-F 6 "~" H 0   200 50  0001 C CNN "Part number"
-F 7 "~" H 0   200 50  0001 C CNN "Supplier"
+F 3 "${KIPRJMOD}/Datasheets/APTD2012F3C-1388795.pdf" H 6400 3850 50  0001 C CNN
+F 4 "https://nl.mouser.com/ProductDetail/604-APTD2012F3C" H 0   200 50  0001 C CNN "Link"
+F 5 "604-APTD2012F3C" H 0   200 50  0001 C CNN "Order number"
+F 6 "APTD2012F3C" H 0   200 50  0001 C CNN "Part number"
+F 7 "Mouser" H 0   200 50  0001 C CNN "Supplier"
 	1    6400 3850
 	-1   0    0    -1  
 $EndComp
