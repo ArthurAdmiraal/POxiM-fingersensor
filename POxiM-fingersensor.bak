@@ -67,11 +67,11 @@ P 6400 3850
 F 0 "D2" H 6200 3900 50  0000 R CNN
 F 1 "IR (940nm)" H 6200 3800 50  0000 R CNN
 F 2 "POxiM-uncategorised:LED_0805_2012Metric_0603_1608Metric" H 6400 3850 50  0001 C CNN
-F 3 "~" H 6400 3850 50  0001 C CNN
-F 4 "~" H 0   200 50  0001 C CNN "Link"
-F 5 "~" H 0   200 50  0001 C CNN "Order number"
-F 6 "~" H 0   200 50  0001 C CNN "Part number"
-F 7 "~" H 0   200 50  0001 C CNN "Supplier"
+F 3 "${KIPRJMOD}/Datasheets/APTD2012F3C-1388795.pdf" H 6400 3850 50  0001 C CNN
+F 4 "https://nl.mouser.com/ProductDetail/604-APTD2012F3C" H 0   200 50  0001 C CNN "Link"
+F 5 "604-APTD2012F3C" H 0   200 50  0001 C CNN "Order number"
+F 6 "APTD2012F3C" H 0   200 50  0001 C CNN "Part number"
+F 7 "Mouser" H 0   200 50  0001 C CNN "Supplier"
 	1    6400 3850
 	-1   0    0    -1  
 $EndComp
@@ -126,8 +126,6 @@ Text Label 5800 3650 0    50   ~ 0
 LED.Red
 Text Label 5800 4450 0    50   ~ 0
 Photodiode
-Text Notes 3150 2550 0    50   ~ 0
-- Update footprints\n- Tool holes to 2mm\n- Routing posts can extend past board edge\n- Increase fiducial size
 $Comp
 L power:GND #PWR0101
 U 1 1 5F046C3E
@@ -283,4 +281,14 @@ F 8 "~" H 0   0   50  0001 C CNN "Supplier"
 	1    3850 7450
 	1    0    0    -1  
 $EndComp
+Text Notes 550  6750 0    100  ~ 0
+Mechanical
+Wire Notes Line
+	6950 6550 6950 7750
+Wire Notes Line
+	6950 7750 500  7750
+Wire Notes Line
+	500  7750 500  6550
+Wire Notes Line
+	500  6550 6950 6550
 $EndSCHEMATC

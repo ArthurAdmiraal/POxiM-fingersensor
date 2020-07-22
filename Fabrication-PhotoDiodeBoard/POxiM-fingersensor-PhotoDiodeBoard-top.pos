@@ -1,0 +1,9 @@
+### Module positions - created on vrijdag 10 juli 2020 om 00:18:24 ###
+### Printed by Pcbnew version pcbnew (5.1.0-0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                               PosX       PosY       Rot  Side
+D1        Photodiode  LED_1206_3216Metric_0805_2012Metric_Castellated   109.0000   -87.0000  270.0000  top
+FID1      Fiducial    Fiducial_1mm_Mask2mm                              105.5000   -90.0000    0.0000  top
+FID2      Fiducial    Fiducial_1mm_Mask2mm                              112.5000   -84.7500    0.0000  top
+## End

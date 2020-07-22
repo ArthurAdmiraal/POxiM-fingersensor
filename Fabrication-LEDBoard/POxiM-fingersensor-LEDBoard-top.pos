@@ -1,0 +1,10 @@
+### Module positions - created on vrijdag 10 juli 2020 om 00:15:45 ###
+### Printed by Pcbnew version pcbnew (5.1.0-0)
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                                   PosX       PosY       Rot  Side
+D2        IR_(940nm)   LED_0805_2012Metric_0603_1608Metric   108.0000   -70.5000   90.0000  top
+D3        Red_(660nm)  LED_0805_2012Metric_0603_1608Metric   110.0000   -70.5000   90.0000  top
+FID3      Fiducial     Fiducial_1mm_Mask2mm                  106.3000   -63.7500    0.0000  top
+FID4      Fiducial     Fiducial_1mm_Mask2mm                  112.5000   -69.2500    0.0000  top
+## End

@@ -126,8 +126,6 @@ Text Label 5800 3650 0    50   ~ 0
 LED.Red
 Text Label 5800 4450 0    50   ~ 0
 Photodiode
-Text Notes 3150 2550 0    50   ~ 0
-- Update footprints\n- Tool holes to 2mm\n- Routing posts can extend past board edge\n- Increase fiducial size
 $Comp
 L power:GND #PWR0101
 U 1 1 5F046C3E
@@ -158,129 +156,139 @@ Connection ~ 7200 4450
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F048FBF
-P 1250 7200
-F 0 "H1" H 1350 7246 50  0000 L CNN
-F 1 "M2 alignment hole" H 1350 7155 50  0000 L CNN
-F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 1250 7200 50  0001 C CNN
-F 3 "~" H 1250 7200 50  0001 C CNN
-F 4 "~" H 1250 7200 50  0001 C CNN "Part number"
-F 5 "~" H 1250 7200 50  0001 C CNN "Order number"
-F 6 "~" H 1250 7200 50  0001 C CNN "Supplier"
-F 7 "NOT ON BOM!" H 1250 7200 50  0001 C CNN "Notes"
-F 8 "~" H 1250 7200 50  0001 C CNN "Link"
-	1    1250 7200
+P 800 7050
+F 0 "H1" H 900 7096 50  0000 L CNN
+F 1 "M2 alignment hole" H 900 7005 50  0000 L CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 800 7050 50  0001 C CNN
+F 3 "~" H 800 7050 50  0001 C CNN
+F 4 "~" H 800 7050 50  0001 C CNN "Part number"
+F 5 "~" H 800 7050 50  0001 C CNN "Order number"
+F 6 "~" H 800 7050 50  0001 C CNN "Supplier"
+F 7 "NOT ON BOM!" H 800 7050 50  0001 C CNN "Notes"
+F 8 "~" H 800 7050 50  0001 C CNN "Link"
+	1    800  7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5F049620
-P 1250 7450
-F 0 "H2" H 1350 7496 50  0000 L CNN
-F 1 "M2 alignment hole" H 1350 7405 50  0000 L CNN
-F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 1250 7450 50  0001 C CNN
-F 3 "~" H 1250 7450 50  0001 C CNN
-F 4 "~" H 1250 7450 50  0001 C CNN "Part number"
-F 5 "~" H 1250 7450 50  0001 C CNN "Order number"
-F 6 "~" H 1250 7450 50  0001 C CNN "Supplier"
-F 7 "NOT ON BOM!" H 1250 7450 50  0001 C CNN "Notes"
-F 8 "~" H 1250 7450 50  0001 C CNN "Link"
-	1    1250 7450
+P 800 7300
+F 0 "H2" H 900 7346 50  0000 L CNN
+F 1 "M2 alignment hole" H 900 7255 50  0000 L CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 800 7300 50  0001 C CNN
+F 3 "~" H 800 7300 50  0001 C CNN
+F 4 "~" H 800 7300 50  0001 C CNN "Part number"
+F 5 "~" H 800 7300 50  0001 C CNN "Order number"
+F 6 "~" H 800 7300 50  0001 C CNN "Supplier"
+F 7 "NOT ON BOM!" H 800 7300 50  0001 C CNN "Notes"
+F 8 "~" H 800 7300 50  0001 C CNN "Link"
+	1    800  7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5F049B3D
-P 2250 7200
-F 0 "H3" H 2350 7246 50  0000 L CNN
-F 1 "M2 alignment hole" H 2350 7155 50  0000 L CNN
-F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 2250 7200 50  0001 C CNN
-F 3 "~" H 2250 7200 50  0001 C CNN
-F 4 "~" H 2250 7200 50  0001 C CNN "Part number"
-F 5 "~" H 2250 7200 50  0001 C CNN "Order number"
-F 6 "~" H 2250 7200 50  0001 C CNN "Supplier"
-F 7 "NOT ON BOM!" H 2250 7200 50  0001 C CNN "Notes"
-F 8 "~" H 2250 7200 50  0001 C CNN "Link"
-	1    2250 7200
+P 1800 7050
+F 0 "H3" H 1900 7096 50  0000 L CNN
+F 1 "M2 alignment hole" H 1900 7005 50  0000 L CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 1800 7050 50  0001 C CNN
+F 3 "~" H 1800 7050 50  0001 C CNN
+F 4 "~" H 1800 7050 50  0001 C CNN "Part number"
+F 5 "~" H 1800 7050 50  0001 C CNN "Order number"
+F 6 "~" H 1800 7050 50  0001 C CNN "Supplier"
+F 7 "NOT ON BOM!" H 1800 7050 50  0001 C CNN "Notes"
+F 8 "~" H 1800 7050 50  0001 C CNN "Link"
+	1    1800 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5F04A2B3
-P 2250 7450
-F 0 "H4" H 2350 7496 50  0000 L CNN
-F 1 "M2 alignment hole" H 2350 7405 50  0000 L CNN
-F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 2250 7450 50  0001 C CNN
-F 3 "~" H 2250 7450 50  0001 C CNN
-F 4 "~" H 2250 7450 50  0001 C CNN "Part number"
-F 5 "~" H 2250 7450 50  0001 C CNN "Order number"
-F 6 "~" H 2250 7450 50  0001 C CNN "Supplier"
-F 7 "NOT ON BOM!" H 2250 7450 50  0001 C CNN "Notes"
-F 8 "~" H 2250 7450 50  0001 C CNN "Link"
-	1    2250 7450
+P 1800 7300
+F 0 "H4" H 1900 7346 50  0000 L CNN
+F 1 "M2 alignment hole" H 1900 7255 50  0000 L CNN
+F 2 "POxiM-uncategorised:AlignmentHole_2mm" H 1800 7300 50  0001 C CNN
+F 3 "~" H 1800 7300 50  0001 C CNN
+F 4 "~" H 1800 7300 50  0001 C CNN "Part number"
+F 5 "~" H 1800 7300 50  0001 C CNN "Order number"
+F 6 "~" H 1800 7300 50  0001 C CNN "Supplier"
+F 7 "NOT ON BOM!" H 1800 7300 50  0001 C CNN "Notes"
+F 8 "~" H 1800 7300 50  0001 C CNN "Link"
+	1    1800 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5F04B929
-P 3250 7200
-F 0 "FID1" H 3335 7246 50  0000 L CNN
-F 1 "Fiducial" H 3335 7155 50  0000 L CNN
-F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3250 7200 50  0001 C CNN
-F 3 "~" H 3250 7200 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Link"
-F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
-F 6 "~" H 0   0   50  0001 C CNN "Order number"
-F 7 "~" H 0   0   50  0001 C CNN "Part number"
-F 8 "~" H 0   0   50  0001 C CNN "Supplier"
-	1    3250 7200
+P 2800 7050
+F 0 "FID1" H 2885 7096 50  0000 L CNN
+F 1 "Fiducial" H 2885 7005 50  0000 L CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 2800 7050 50  0001 C CNN
+F 3 "~" H 2800 7050 50  0001 C CNN
+F 4 "~" H -450 -150 50  0001 C CNN "Link"
+F 5 "NOT ON BOM!" H -450 -150 50  0001 C CNN "Notes"
+F 6 "~" H -450 -150 50  0001 C CNN "Order number"
+F 7 "~" H -450 -150 50  0001 C CNN "Part number"
+F 8 "~" H -450 -150 50  0001 C CNN "Supplier"
+	1    2800 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5F04C457
-P 3250 7450
-F 0 "FID2" H 3335 7496 50  0000 L CNN
-F 1 "Fiducial" H 3335 7405 50  0000 L CNN
-F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3250 7450 50  0001 C CNN
-F 3 "~" H 3250 7450 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Link"
-F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
-F 6 "~" H 0   0   50  0001 C CNN "Order number"
-F 7 "~" H 0   0   50  0001 C CNN "Part number"
-F 8 "~" H 0   0   50  0001 C CNN "Supplier"
-	1    3250 7450
+P 2800 7300
+F 0 "FID2" H 2885 7346 50  0000 L CNN
+F 1 "Fiducial" H 2885 7255 50  0000 L CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 2800 7300 50  0001 C CNN
+F 3 "~" H 2800 7300 50  0001 C CNN
+F 4 "~" H -450 -150 50  0001 C CNN "Link"
+F 5 "NOT ON BOM!" H -450 -150 50  0001 C CNN "Notes"
+F 6 "~" H -450 -150 50  0001 C CNN "Order number"
+F 7 "~" H -450 -150 50  0001 C CNN "Part number"
+F 8 "~" H -450 -150 50  0001 C CNN "Supplier"
+	1    2800 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5F04D55D
-P 3850 7200
-F 0 "FID3" H 3935 7246 50  0000 L CNN
-F 1 "Fiducial" H 3935 7155 50  0000 L CNN
-F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3850 7200 50  0001 C CNN
-F 3 "~" H 3850 7200 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Link"
-F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
-F 6 "~" H 0   0   50  0001 C CNN "Order number"
-F 7 "~" H 0   0   50  0001 C CNN "Part number"
-F 8 "~" H 0   0   50  0001 C CNN "Supplier"
-	1    3850 7200
+P 3400 7050
+F 0 "FID3" H 3485 7096 50  0000 L CNN
+F 1 "Fiducial" H 3485 7005 50  0000 L CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3400 7050 50  0001 C CNN
+F 3 "~" H 3400 7050 50  0001 C CNN
+F 4 "~" H -450 -150 50  0001 C CNN "Link"
+F 5 "NOT ON BOM!" H -450 -150 50  0001 C CNN "Notes"
+F 6 "~" H -450 -150 50  0001 C CNN "Order number"
+F 7 "~" H -450 -150 50  0001 C CNN "Part number"
+F 8 "~" H -450 -150 50  0001 C CNN "Supplier"
+	1    3400 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5F04D563
-P 3850 7450
-F 0 "FID4" H 3935 7496 50  0000 L CNN
-F 1 "Fiducial" H 3935 7405 50  0000 L CNN
-F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3850 7450 50  0001 C CNN
-F 3 "~" H 3850 7450 50  0001 C CNN
-F 4 "~" H 0   0   50  0001 C CNN "Link"
-F 5 "NOT ON BOM!" H 0   0   50  0001 C CNN "Notes"
-F 6 "~" H 0   0   50  0001 C CNN "Order number"
-F 7 "~" H 0   0   50  0001 C CNN "Part number"
-F 8 "~" H 0   0   50  0001 C CNN "Supplier"
-	1    3850 7450
+P 3400 7300
+F 0 "FID4" H 3485 7346 50  0000 L CNN
+F 1 "Fiducial" H 3485 7255 50  0000 L CNN
+F 2 "POxiM-uncategorised:Fiducial_1mm_Mask2mm" H 3400 7300 50  0001 C CNN
+F 3 "~" H 3400 7300 50  0001 C CNN
+F 4 "~" H -450 -150 50  0001 C CNN "Link"
+F 5 "NOT ON BOM!" H -450 -150 50  0001 C CNN "Notes"
+F 6 "~" H -450 -150 50  0001 C CNN "Order number"
+F 7 "~" H -450 -150 50  0001 C CNN "Part number"
+F 8 "~" H -450 -150 50  0001 C CNN "Supplier"
+	1    3400 7300
 	1    0    0    -1  
 $EndComp
+Text Notes 550  6750 0    100  ~ 0
+Mechanical
+Wire Notes Line
+	6950 6550 6950 7750
+Wire Notes Line
+	6950 7750 500  7750
+Wire Notes Line
+	500  7750 500  6550
+Wire Notes Line
+	500  6550 6950 6550
 $EndSCHEMATC

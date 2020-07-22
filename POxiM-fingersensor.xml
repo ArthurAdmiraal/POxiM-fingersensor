@@ -2,16 +2,16 @@
 <export version="D">
   <design>
     <source>/Users/arthuradmiraal/Documents/POxiM/POxiM Electronics/POxiM-fingersensor/POxiM-fingersensor.sch</source>
-    <date>2020 May 01, Friday 18:36:15</date>
+    <date>2020 July 10, Friday 00:19:54</date>
     <tool>Eeschema (5.1.0-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Finger sensor</title>
         <company>POxiM</company>
         <rev>Test proto</rev>
-        <date>2020-04-27</date>
+        <date>2020-05-29</date>
         <source>POxiM-fingersensor.sch</source>
-        <comment number="1" value="By Arthur Admiraal"/>
+        <comment number="1" value="By Arthur Admiraal &amp; Daan de Groot"/>
         <comment number="2" value="Infrared and red transmissivity sensor"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
@@ -19,95 +19,182 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J2">
-      <value>To photodiode board</value>
-      <footprint>POxiM-uncategorised:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal</footprint>
-      <datasheet>${KIPRJMOD}/Datasheets/987651-8731.pdf</datasheet>
-      <fields>
-        <field name="Link">https://nl.mouser.com/ProductDetail/Molex/200528-0040?qs=sGAEpiMZZMs7i6cT6ogu4yFxZW78US2djCy2DdTgJmj5TbkKhWqizg%3D%3D</field>
-        <field name="Order number">538-200528-0040</field>
-        <field name="Part number">2005280040</field>
-        <field name="Supplier">Mouser</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA66BD1</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>To LED board</value>
-      <footprint>POxiM-uncategorised:Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal</footprint>
-      <datasheet>${KIPRJMOD}/Datasheets/987651-8731.pdf</datasheet>
-      <fields>
-        <field name="Link">https://nl.mouser.com/ProductDetail/Molex/200528-0040?qs=sGAEpiMZZMs7i6cT6ogu4yFxZW78US2djCy2DdTgJmj5TbkKhWqizg%3D%3D</field>
-        <field name="Order number">538-200528-0040</field>
-        <field name="Part number">2005280040</field>
-        <field name="Supplier">Mouser</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA6A4C1</tstamp>
-    </comp>
     <comp ref="D1">
       <value>Photodiode</value>
-      <footprint>LED_SMD:LED_1206_3216Metric_Castellated</footprint>
+      <footprint>POxiM-uncategorised:LED_1206_3216Metric_0805_2012Metric_Castellated</footprint>
       <datasheet>${KIPRJMOD}/Datasheets/2711852.pdf</datasheet>
       <fields>
-        <field name="Link">https://nl.farnell.com/osram-opto-semiconductors/sfh-2701/photo-diode-820nm-1206/dp/2981719</field>
-        <field name="Order number">2981719</field>
+        <field name="Link">https://nl.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/SFH-2701?qs=%2Fha2pyFadujkohCJnotANpZPDvUKMp5%2FTRZ67%252BHfjgI%3D</field>
+        <field name="Order number">720-SFH2701</field>
         <field name="Part number">SFH 2701</field>
-        <field name="Supplier">Farnell</field>
+        <field name="Supplier">Mouser</field>
       </fields>
       <libsource lib="Device" part="D_Photo_ALT" description="Photodiode, filled shape"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA6D793</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>IR and red</value>
-      <footprint>POxiM-uncategorised:VSMD66694</footprint>
-      <datasheet>${KIPRJMOD}/Datasheets/2633003.pdf</datasheet>
-      <fields>
-        <field name="Link">https://nl.farnell.com/vishay/vsmd66694/infrared-emitter-660-nm-smd/dp/2889676?st=VSMD66694</field>
-        <field name="Order number">2889676</field>
-        <field name="Part number">VSMD66694</field>
-        <field name="Supplier">Farnell</field>
-      </fields>
-      <libsource lib="POxiM-uncategorised" part="LED_Dual_AACC" description="Dual LED, cathodes on pins 3 and 4"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA6AA6C</tstamp>
-    </comp>
     <comp ref="J3">
       <value>To readout unit</value>
-      <footprint>POxiM-uncategorised:Molex-Nanofit-4</footprint>
+      <footprint>POxiM-uncategorised:Finger-CableConnection</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="Link">https://nl.mouser.com/ProductDetail/Molex/105430-1204?utm_term=1054301204&amp;qs=gZXFycFWdAOazz4rplLXKg%3D%3D&amp;utm_campaign=105430-1204&amp;utm_medium=aggregator&amp;utm_source=findchips&amp;utm_content=Molex</field>
-        <field name="Link 2">https://nl.farnell.com/molex/105430-1104/nano-fit-hdr-smt-ra-sgl-4ckt-tin/dp/3225233?CMP=GRHB-SF-FC</field>
-        <field name="Notes">Mouser gold plating, Farnell tin plating</field>
-        <field name="Order number">538-105430-1204</field>
-        <field name="Order number 2">3225233</field>
-        <field name="Part number">1054301204</field>
-        <field name="Part number 2">105430-1104</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier 2">Farnell</field>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA73172</tstamp>
     </comp>
-    <comp ref="CA1">
-      <value>50mm FFC</value>
-      <footprint>POxiM-uncategorised:Accesory</footprint>
-      <datasheet>${KIPRJMOD}/Datasheets/6866xxxxx001-473363.pdf</datasheet>
+    <comp ref="D3">
+      <value>Red (660nm)</value>
+      <footprint>POxiM-uncategorised:LED_0805_2012Metric_0603_1608Metric</footprint>
+      <datasheet>${KIPRJMOD}/Datasheets/SML-LX0603SRW-TR-1135914.pdf</datasheet>
       <fields>
-        <field name="Link">https://nl.farnell.com/wurth-elektronik/686604050001/cable-assy-ffc-ffc-4-core-50mm/dp/2827779?st=ffc</field>
-        <field name="Notes">Shortest available</field>
-        <field name="Order number">2827779</field>
-        <field name="Part number">686604050001</field>
-        <field name="Supplier">Farnell</field>
+        <field name="Link">https://nl.mouser.com/ProductDetail/Lumex/SML-LX0603SRW-TR?qs=I1ILoAvtKy93HVCzWwpawA%3D%3D</field>
+        <field name="Order number">696-SML-LX0603SRW</field>
+        <field name="Part number">SML-LX0603SRW-TR</field>
+        <field name="Supplier">Mouser</field>
       </fields>
-      <libsource lib="POxiM-mechanical" part="Premo-Flex_4C" description=""/>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA7B2D1</tstamp>
+      <tstamp>5EE0E1BF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>IR (940nm)</value>
+      <footprint>POxiM-uncategorised:LED_0805_2012Metric_0603_1608Metric</footprint>
+      <datasheet>${KIPRJMOD}/Datasheets/APTD2012F3C-1388795.pdf</datasheet>
+      <fields>
+        <field name="Link">https://nl.mouser.com/ProductDetail/604-APTD2012F3C</field>
+        <field name="Order number">604-APTD2012F3C</field>
+        <field name="Part number">APTD2012F3C</field>
+        <field name="Supplier">Mouser</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0E711</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M2 alignment hole</value>
+      <footprint>POxiM-uncategorised:AlignmentHole_2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F048FBF</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M2 alignment hole</value>
+      <footprint>POxiM-uncategorised:AlignmentHole_2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F049620</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>M2 alignment hole</value>
+      <footprint>POxiM-uncategorised:AlignmentHole_2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F049B3D</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>M2 alignment hole</value>
+      <footprint>POxiM-uncategorised:AlignmentHole_2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04A2B3</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>POxiM-uncategorised:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04B929</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>POxiM-uncategorised:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04C457</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>POxiM-uncategorised:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04D55D</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>POxiM-uncategorised:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link">~</field>
+        <field name="Notes">NOT ON BOM!</field>
+        <field name="Order number">~</field>
+        <field name="Part number">~</field>
+        <field name="Supplier">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F04D563</tstamp>
     </comp>
   </components>
   <libparts>
@@ -128,23 +215,6 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector_Generic" part="Conn_01x04">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x04</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="D_Photo_ALT">
       <description>Photodiode, filled shape</description>
       <docs>~</docs>
@@ -157,14 +227,8 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="POxiM-mechanical" part="Premo-Flex_4C">
-      <fields>
-        <field name="Reference">#CA</field>
-        <field name="Value">Premo-Flex_4C</field>
-      </fields>
-    </libpart>
-    <libpart lib="POxiM-uncategorised" part="LED_Dual_AACC">
-      <description>Dual LED, cathodes on pins 3 and 4</description>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
       <docs>~</docs>
       <footprints>
         <fp>LED*</fp>
@@ -173,69 +237,65 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED_Dual_AACC</field>
+        <field name="Value">LED</field>
       </fields>
       <pins>
-        <pin num="1" name="K1" type="input"/>
-        <pin num="2" name="A2" type="input"/>
-        <pin num="3" name="K2" type="input"/>
-        <pin num="4" name="A1" type="input"/>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
       <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
     </library>
-    <library logical="Connector_Generic">
-      <uri>/Library/Application Support/kicad/library/Connector_Generic.lib</uri>
-    </library>
     <library logical="Device">
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
     </library>
-    <library logical="POxiM-mechanical">
-      <uri>/Users/arthuradmiraal/Documents/POxiM/POxiM Electronics/POxiM-fingersensor/Libraries/Symbols/POxiM-mechanical.lib</uri>
-    </library>
-    <library logical="POxiM-uncategorised">
-      <uri>/Users/arthuradmiraal/Documents/POxiM/POxiM Electronics/POxiM-fingersensor/Libraries/Symbols/POxiM-uncategorised.lib</uri>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J2-Pad3)">
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="2" name="Net-(J2-Pad4)">
-      <node ref="J2" pin="4"/>
-    </net>
-    <net code="3" name="Net-(D1-Pad1)">
-      <node ref="J1" pin="1"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="4" name="Net-(J1-Pad3)">
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="5" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="6" name="GND">
-      <node ref="D1" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D2" pin="3"/>
-      <node ref="J2" pin="2"/>
+    <net code="1" name="/LED.IR">
       <node ref="J3" pin="2"/>
-    </net>
-    <net code="7" name="Net-(D2-Pad2)">
-      <node ref="J3" pin="4"/>
       <node ref="D2" pin="2"/>
     </net>
-    <net code="8" name="Net-(D2-Pad4)">
-      <node ref="J3" pin="3"/>
-      <node ref="D2" pin="4"/>
-    </net>
-    <net code="9" name="Net-(J2-Pad1)">
+    <net code="2" name="/LED.Red">
       <node ref="J3" pin="1"/>
-      <node ref="J2" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="3" name="/Photodiode">
+      <node ref="D1" pin="1"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="D1" pin="2"/>
     </net>
   </nets>
 </export>
